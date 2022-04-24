@@ -1,6 +1,6 @@
 # Admin Panel - Write up
 
-For this challenge an APK file named <em>AdminPanel.apk</em> is given.
+For this challenge an APK file named <em>AdminPanel.apk</em> is given. The goal is to find the password of the app.
 
 I first start to unzip it to get the file <em>classes.dex</em>, which contains the classes of the application :
 
