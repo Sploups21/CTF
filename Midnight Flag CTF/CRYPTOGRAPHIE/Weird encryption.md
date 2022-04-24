@@ -6,7 +6,7 @@ For this challenge, the following cipher is given :
 %96 p$rxx  4@56  567:?6D hc AC:?E23=6 492C24E6CD[  D@ 2 C@E2E :@? @7 92=7 Whc^a l cfX >2<6D :E  A@DD :3=6 E@ @3E2: ? 2 DJ>>6EC:42= 4:A96C[ D:>:=2C E@ #~% b W7@C E96 ae =6EE6CD @7 E96 2=A9236EX] %96 7=28 : D |r%uL7a622`e6h`g5h`gh363ega`adfacd`gegg)ddd42fhg3h57f33`agdca2fa`62c24N
 ```
 
-Again, let's ask to our best friend Dcode if it has a clue : 
+Let's ask to our best friend https://www.dcode.fr/cipher-identifier if it has a clue : 
 
 ![1](https://user-images.githubusercontent.com/66923124/164987177-a8f9c037-e478-4ecb-a3fe-a21dcac6e7a9.png)
 
@@ -18,7 +18,7 @@ High probability of ROT47. Let's check if it brings something :
 Looks like we have found something good 😀... or not 😞 
 <br> 
 
-I tried to submit the following flag but it didn't worked) :
+I tried to submit the following flag but it didn't worked :
 
 ```
 MCTF{f2eaa16e918d9189beb682125724518688X555ca798b9df7bb128542a721ea4ac}
