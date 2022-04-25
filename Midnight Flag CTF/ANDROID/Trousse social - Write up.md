@@ -21,6 +21,8 @@ After some analysis of the code we know that :
 - we have a key : <strong>IMTHEBOSS</strong>
 - a XOR is performed for each character in the ciphertext with the key with several steps
 
+So we have something that looks like a decryption routine... 
+
 I tried to make a Python script to reproduce the decryption algorithm but was kinda lost since Java code gives me PTSD... 
 So I sent the code to a teammate and he responded two minutes later :
 
