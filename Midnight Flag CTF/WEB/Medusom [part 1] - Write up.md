@@ -1,6 +1,6 @@
 # Medusom [part 1] - Write up
 
-> I don't have screenshots for this challenge, I'm sorry 😥 I will try my best to explain the challenge !
+I don't have screenshots for this challenge, (I'm sorry 😥) so I will try my best to explain it !
 
 For this challenge, we need to attack a website to download some data that we are not authorized to see. <br>
 To do that, we will exploit an IDOR (Insecure Direct Object Reference).
