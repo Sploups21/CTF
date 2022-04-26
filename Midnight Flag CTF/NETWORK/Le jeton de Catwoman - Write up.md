@@ -6,7 +6,7 @@ Let's see the content of this capture with Wireshark :
 
 ![1](https://user-images.githubusercontent.com/66923124/164989892-60c450e1-4319-4106-a89a-baad086606df.png)
 
-This is a small Kerberos exchange. So to find the password of catwoman, we will need to steel it's token and crack it 😺
+This is a small Kerberos exchange. So to find the password of catwoman, we will need to steel it's TGS and crack it 😺
 
 To list quickly the credentials inside the packet, I use NetworkMiner :
 
