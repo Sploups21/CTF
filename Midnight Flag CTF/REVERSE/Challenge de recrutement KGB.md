@@ -25,7 +25,7 @@ This code basically checks if the user input is 24 characters long.
 If it's not, we have this error message : <strong>No. This is not flag.</strong>
 
 If it is, we enter in a loop :
-- This loop compares each character of our input with the value of v8[i] XOR 0x42.
+- This loop compares each character of our input with the value of v8[i] XOR 0x42 (with i the index of the array).
 So if the first letter of our string is equal to the first character of the array v8 XORed with 0x42, it checks the next character and so on, till the end of the string.
 If one character of our string is not equal to that, we get this error message : <strong>Wrong. You not have flag.</strong>
 
