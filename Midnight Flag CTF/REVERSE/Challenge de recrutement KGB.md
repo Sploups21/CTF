@@ -17,7 +17,7 @@ Let's find the cross references for the <em>Congratulations</em> string. To do t
 After clicking on the xref, it seems like we are in the main function :
 ![main](https://user-images.githubusercontent.com/66923124/164982610-59e4ffae-907f-4e0b-98c2-c8cf2b4485de.PNG)
 
-Since the architecture of the binary is x64, we can generate pseudocode for the function in IDA with <strong>F5</strong> :
+Since the architecture of the binary is x64, we can generate pseudocode for the function in IDA Freeware with <strong>F5</strong> :
 ![pseudo](https://user-images.githubusercontent.com/66923124/164982739-99a1bdf7-b1bb-4338-a8d4-15a7711a1547.PNG)
 
 
