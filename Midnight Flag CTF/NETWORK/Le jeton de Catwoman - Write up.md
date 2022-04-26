@@ -8,7 +8,7 @@ Let's see the content of this capture with Wireshark :
 
 This is a small Kerberos exchange. So to find the password of catwoman, we will need to steal it's TGS and crack it 😺
 
-To list quickly the credentials inside the packet, I use NetworkMiner :
+To list quickly the credentials inside the pcap file, I use NetworkMiner :
 
 ![1](https://user-images.githubusercontent.com/66923124/164990651-7f413fd4-5b3f-427e-84a0-ed478a3ec128.png)
 
