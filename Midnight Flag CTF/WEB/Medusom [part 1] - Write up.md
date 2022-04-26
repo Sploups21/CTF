@@ -7,7 +7,7 @@ To do that, we will exploit an IDOR (Insecure Direct Object Reference).
 
 When we click on "download" for an authorized file, a POST request with several parameters is made :
 - <strong>explorer</strong>
-- <strong>file-download</strong> #boolean : we give it the value "true" for download a file
+- <strong>file-download</strong> #boolean : we give it the value "true" to download a file
 - <strong>folder-id</strong> #the id of the folder
 - <strong>data-dir</strong> #the file we're interested in
 
@@ -43,9 +43,7 @@ Connection: close
 ```
 
 To exploit the vulnerability, we just need to change the folder-id and the data-dir parameters to download the files of our choice 😀
-
 <br>
-
 The files that we want to download are in the folder id 11 and their names are :
 <strong>
 - flag.txt
@@ -94,14 +92,6 @@ Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
 Cookie: SESSID=a784e25bbdb1b4c8c680adfe5b374c761ab54bfe4b933512745d00dc3263a7c0
 Connection: close
 ```
-
-There is however one subtility for the file <strong><em>._lock.Skiblili.odt#</em></strong> :<br>
-
-Because of the <strong>#</strong> at the end of the filename, we first need to URL encode it :
-
-![Sans titre](https://user-images.githubusercontent.com/66923124/164997569-897b07e5-400a-4e32-94ed-0c3cfcefa661.png)
-
-<strong>So data-dir=%2e%5f%6c%6f%63%6b%2e%53%6b%69%62%6c%69%6c%69%2e%6f%64%74%23 for this file </strong>
 
 <br>
 
