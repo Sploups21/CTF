@@ -1,6 +1,6 @@
 # Medusom [part 2] - Write up
 
-For this challenge, the hint given was <em> .git/ Respect </em> or something like that so... Let's steal the .git folder and analyze it !
+For this challenge, the hint given was <em> .git</em> so... Let's steal the .git folder and analyze it !
 
 To do this, I use <strong>gitdumper.sh</strong> 😎 :
 
